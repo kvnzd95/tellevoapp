@@ -1,0 +1,7 @@
+{
+  "name": "telleboapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
