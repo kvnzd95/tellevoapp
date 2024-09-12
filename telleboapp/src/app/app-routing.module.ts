@@ -12,6 +12,10 @@ const routes: Routes = [
     path: 'bienvenida',
     loadChildren: () => import('./bienvenida/bienvenida.module').then( m => m.BienvenidaPageModule)
   },
+  {
+    path: 'restaurar',
+    loadChildren: () => import('./restaurar/restaurar.module').then( m => m.RestaurarPageModule)
+  },
 ];
 
 @NgModule({
