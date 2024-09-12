@@ -6,11 +6,19 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  min-width: 200px;
+  max-width: 400px; /* Establece el tamaño máximo del contenedor */
+  margin: 0 auto;   /* Centra el div en la página */
+  padding: 20px;    /* Añade un poco de espacio interno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para estilo */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #c1c0c0; /* Fondo blanco */
+
 }
 
 #container strong {
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 #container p {
@@ -24,4 +32,33 @@
 
 #container a {
   text-decoration: none;
+}
+
+.header{
+  text-align: center;
+
+}
+.img{
+  text-align: center;
+  margin-top: 20px;
+  width: 100px;
+  height: auto;
+}
+.av{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100%;         
+  width: 100%;           
+
+}
+.passw{
+  margin-bottom: 20px;
+}
+.resta{
+
+  
+  font-size: 14 px;
+  align-items: center;    
+  text-align: center;
 }
